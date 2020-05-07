@@ -1,0 +1,61 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    background-color: rgb(28, 28, 31);
+    height: 2cm;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    
+}
+.logo{
+    margin-left: 15px;
+}
+.logo span{
+    color: yellowgreen;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    height: 1cm;
+    width: 70%;
+    font-size: 16px;
+}
+.links a:hover{
+    color: black;
+    background-color: rgb(179, 230, 79);
+}
+
+.signbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.signbtn a{
+    border: 1px solid rgb(150, 207, 35);
+    border-radius: 3px;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 7px;
+    margin-right: 5px;
+}
+.signbtn a:hover{
+    border: none;
+    background-color: rgb(179, 230, 79);
+    color: black;
+}

@@ -1,10 +1,5 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  margin: 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +30,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+/*adding my styles*/
+.mypage{
+  background-color: #d9dcdd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 3px;
+
 }

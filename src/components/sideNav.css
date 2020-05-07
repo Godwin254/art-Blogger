@@ -1,0 +1,29 @@
+.sidenav{
+    position: fixed;
+    width: 20%;
+    height: 15cm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    background-color: rgb(238, 238, 247);
+}
+.sidenav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding-top: 39px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.sidenav a:hover{
+    width: 70%;
+    border-bottom: 3px solid yellowgreen;
+    margin-bottom: 10px;
+}
+.sidenav a:active:nth-child(1){
+    background-color: violet;
+}
